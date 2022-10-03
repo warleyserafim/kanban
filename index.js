@@ -148,6 +148,6 @@ io.on("connection", (socket) => {
 //     });
 // });
 
-server.listen(port, () =>{
+server.listen(port || 8080, () =>{
     console.log(`Server listening on ${port}`);
 });
